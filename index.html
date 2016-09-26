@@ -30,7 +30,16 @@
             <button id='button'>COOL STUFF</button>
         </div>
         <script>
+            var myBut = document.getElementById("button");
+            var disp = document.getElementById("display");
             
+            myBut.onclick = function(){
+                disp.style.backgroundColor = "#BAF";
+                button.style.width = "500px";
+                button.style.height = "100px";
+                button.style.borderRadius = "100px";
+                button.style.backgroundColor = "#ABF"
+            }
         </script>
     </body>
 </html>
